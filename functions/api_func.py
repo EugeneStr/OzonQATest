@@ -28,6 +28,3 @@ def GetHeroWithMaxHeight(all_hero_data, gender: str, is_work: bool):
                 if hero_height > max_height:
                     max_height = hero_height
     return max_height
-
-
-print(GetHeroWithMaxHeight(APIGetAllData(), 'Male', True))
